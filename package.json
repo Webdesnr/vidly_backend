@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "babel build -d lib",
     "start": "node index.js",
     "seed": "node seed.js",
     "test": "jest --watchAll --verbose"
